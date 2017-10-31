@@ -1,6 +1,7 @@
 {
     "name": "gio/roomsxml",
     "description": "roomsXml services",
+    "versions" : "dev-master, 1.0",
     "authors": [
         {
             "name": "mosa",
