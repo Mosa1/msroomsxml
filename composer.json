@@ -1,6 +1,6 @@
 {
     "name": "gio/roomsxml",
-    "description": "roomsXml services",
+    "description": "RoomsXML API integration",
     "versions" : "dev-master, 1.0",
     "authors": [
         {
@@ -8,8 +8,29 @@
             "email": "gio.mosashvili1@gmail.com"
         }
     ],
-    "require": {
-        "php": "^5.3.3 || ^7.0"
+    "require": {    
+	    "php": ">=5.4.0",
+	    "kriswallsmith/buzz": "^0.15.0",
+	    "ext-curl": "*",
+	    "jms/serializer": "~1.9",
+	    "doctrine/collections": "^1.3"
     },
+	"require-dev": {
+		"symfony/var-dumper": "~3.2"
+	},
+ 	"autoload": {
+	    "psr-0": {
+	      "SalmaAbdelhady\\RoomsXML": "src/"
+	    },
+	    "psr-4":
+	    {
+	      "SalmaAbdelhady\\RoomsXML\\" : "src/"
+	    }
+  	},
+  	"extra": {
+	    "branch-alias": {
+	      "dev-master": "1.x-dev"
+	    }
+  	},
     "license": "MIT"
 }
