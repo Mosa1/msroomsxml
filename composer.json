@@ -1,0 +1,10 @@
+{
+    "name": "gio/roomsxml",
+    "authors": [
+        {
+            "name": "mosa",
+            "email": "gio.mosashvili1@gmail.com"
+        }
+    ],
+    "require": {}
+}
